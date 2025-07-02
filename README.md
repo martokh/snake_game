@@ -1,5 +1,4 @@
-```markdown
-# Snake Game 🐍
+## Snake Game 🐍
 
 A classic Snake game built in Python using the `turtle` graphics module.
 
@@ -68,4 +67,3 @@ turtle
 
 This project is licensed under the [MIT License](LICENSE).
 
-```
