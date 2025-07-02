@@ -65,5 +65,5 @@ turtle
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+MIT License © Martin Hristov
 
