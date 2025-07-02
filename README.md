@@ -46,7 +46,7 @@ python main.py
 ```
 
 * Use the **arrow keys** to move the snake.
-* Eat the food (🐭) to grow longer.
+* Eat the food to grow longer.
 * Don’t run into the walls or the snake’s own tail!
 
 ## Features
