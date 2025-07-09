@@ -15,18 +15,24 @@ class Snake:
         self.head = self.segments[0]
 
     def create_snake(self):
-        for position in STARTING_POSITIONS:
-            self.add_segment(position)
+        colors = ["#7CFC00", "#228B22"]  # light green, dark green
+        for idx, position in enumerate(STARTING_POSITIONS):
+            color = "green" if idx == 0 else colors[(idx - 1) % 2]
+            self.add_segment(position, color)
 
-    def add_segment(self, position):
-            new_segment = Turtle("square")
-            new_segment.color("white")
-            new_segment.penup()
-            new_segment.goto(position)
-            self.segments.append(new_segment)
+    def add_segment(self, position, color="white"):
+        new_segment = Turtle("square")
+        new_segment.color(color)
+        new_segment.penup()
+        new_segment.goto(position)
+        self.segments.append(new_segment)
 
     def extend(self):
-        self.add_segment(self.segments[-1].position())
+        # Alternate color for new segments
+        colors = ["#7CFC00", "#228B22"]
+        idx = len(self.segments) - 1
+        color = colors[(idx - 1) % 2]
+        self.add_segment(self.segments[-1].position(), color)
     
     def move(self):
         for seg_num in range(len(self.segments) - 1, 0, -1):
