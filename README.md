@@ -25,7 +25,7 @@ day-20/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/<YOUR-USERNAME>/snake_game.git
+git clone https://github.com/martokh/snake_game.git
 cd snake_game
 
 # 2. (Optional) Create & activate a virtual environment
