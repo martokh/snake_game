@@ -25,8 +25,8 @@ day-20/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/<YOUR-USERNAME>/day-20-snake.git
-cd day-20-snake
+git clone https://github.com/<YOUR-USERNAME>/snake_game.git
+cd snake_game
 
 # 2. (Optional) Create & activate a virtual environment
 python -m venv .venv
